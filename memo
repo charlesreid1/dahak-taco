@@ -1,0 +1,67 @@
+installation:
+- manual vs ansible installation
+- using pyenv or virtualenv or pip or pipfile
+
+usage:
+- "The user will defines their"
+- leaves the user wanting to know more
+
+
+at the high level:
+- what are the inputs?
+- what are the outputs?
+- what is this even doing?
+- here is the type of input, and how it is transformed, and the output
+    - config files --> input files
+    - param files --> workflow params
+
+at the command level:
+- taco [verb] [flag]
+
+- talk about verbs (table?)
+    - what workflow do you want to run
+    - workflows? what are those?
+    - rules?
+
+- talk about flags (table?)
+    - what flags set the config and param files
+    - other flags?
+
+- rules?
+- workflows?
+- pipelines?
+- how to provide input files?
+
+----
+
+running:
+
+- inputs
+    - config (input files)
+    - params
+    - defaults
+        - precedence order
+        - user specified > defaults in workflow > defaults from user
+    - other flags
+    - will discuss particulars of workflows below
+    - if flags are not recognized, try to pass them on to snakemake
+        (snakemake cli-to-api parser?)
+
+- workflows
+    - pages for various workflows
+    - for each workflow page:
+        - options.
+        - details.
+        - uniform setup, for each page.
+        - ansible-like
+        - table for options and descriptions
+
+- outputs
+    - how to configure where output goes
+    - where's my stuff???
+
+
+
+
+
+
